@@ -1,14 +1,14 @@
 class Gosubst < Formula
   desc "Command line env var expansion and Go templating."
   homepage "https://github.com/hews/gosubst"
-  url "https://github.com/hews/gosubst/archive/v0.3.0.tar.gz"
-  sha256 "49e3de26cf215639496aaed7bc5d0d1c8b363a42e715b4d867c88d2fc87e962c"
+  url "https://github.com/hews/gosubst/archive/v0.4.0.tar.gz"
+  sha256 "4a82c29a7bb9527e4386da039b2e2032cca7a3581630e162e4395e23883cb10d"
 
   depends_on "go" => :build
 
   def install
-    commit = "e6c726f78077bd12429594c49feb9a2d43c92d76"
-    tag = "v0.3.0"
+    commit = "4dac493e144d3ffb9decae7306ca0e9e0656ea82"
+    tag = "v0.4.0"
     sprig = "v3.0.2"
 
     system \
